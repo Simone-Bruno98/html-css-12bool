@@ -1,118 +1,112 @@
-.col-1{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+[class*="col-"] {
+    flex: 0 0 auto;
+  }
+
+
+/* framework lg */
+
+
+.col-1-lg{
     flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
 }
-.col-2{
+.col-2-lg{
     flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
 }
-.col-3{
+.col-3-lg{
     flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
 }
-.col-4{
+.col-4-lg{
     flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
 }
-.col-5{
+.col-5-lg{
     flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
 }
-.col-6{
+.col-6-lg{
     flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
 }
-.col-7{
+.col-7-lg{
     flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
 }
-.col-8{
+.col-8-lg{
     flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
 }
-.col-9{
+.col-9-lg{
     flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
 }
-.col-10{
+.col-10-lg{
     flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
 }
-.col-11{
+.col-11-lg{
     flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
 }
-.col-12{
+.col-12-lg{
     flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
 }
 
+/* offset */
 
-
-
-/* offset sx */
-
-.col-offset-1-sx{
+.col-offset-1{
     margin-left: calc((100% / 12) * 1);
 }
-.col-offset-2-sx{
+.col-offset-2{
     margin-left: calc((100% / 12) * 2);
 }
-.col-offset-3-sx{
+.col-offset-3{
     margin-left: calc((100% / 12) * 3);
 }
-.col-offset-4-sx{
+.col-offset-4{
     margin-left: calc((100% / 12) * 4);
 }
-.col-offset-5-sx{
+.col-offset-5{
     margin-left: calc((100% / 12) * 5);
 }
-.col-offset-6-sx{
+.col-offset-6{
     margin-left: calc((100% / 12) * 6);
 }
-.col-offset-7-sx{
+.col-offset-7{
     margin-left: calc((100% / 12) * 7);
 }
-.col-offset-8-sx{
+.col-offset-8{
     margin-left: calc((100% / 12) * 8);
 }
-.col-offset-9-sx{
+.col-offset-9{
     margin-left: calc((100% / 12) * 9);
 }
-.col-offset-10-sx{
+.col-offset-10{
     margin-left: calc((100% / 12) * 10);
 }
-.col-offset-11-sx{
+.col-offset-11{
     margin-left: calc((100% / 12) * 11);
 }
-.col-offset-12-sx{
+.col-offset-12{
     margin-left: calc((100% / 12) * 12);
 }
 
-
-/* offset dx */
-
-.col-offset-1-dx{
-    margin-left: calc((100% / 12) * 1);
-}
-.col-offset-2-dx{
-    margin-left: calc((100% / 12) * 2);
-}
-.col-offset-3-dx{
-    margin-left: calc((100% / 12) * 3);
-}
-.col-offset-4-dx{
-    margin-left: calc((100% / 12) * 4);
-}
-.col-offset-5-dx{
-    margin-left: calc((100% / 12) * 5);
-}
-.col-offset-6-dx{
-    margin-left: calc((100% / 12) * 6);
-}
-.col-offset-7-dx{
-    margin-left: calc((100% / 12) * 7);
-}
-.col-offset-8-dx{
-    margin-left: calc((100% / 12) * 8);
-}
-.col-offset-9-dx{
-    margin-left: calc((100% / 12) * 9);
-}
-.col-offset-10-dx{
-    margin-left: calc((100% / 12) * 10);
-}
-.col-offset-11-dx{
-    margin-left: calc((100% / 12) * 11);
-}
-.col-offset-12-dx{
-    margin-left: calc((100% / 12) * 12);
-}
